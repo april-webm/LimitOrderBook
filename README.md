@@ -1,6 +1,6 @@
 # Limit Order Book Implementation
 
-A Python implementation of a limit order book (LOB) matching engine with price-time priority, supporting order placement, cancellation, and real-time market data retrieval.
+A Python implementation of a limit order book (LOB) matching engine with price-time priority, supporting order placement, cancellation, and near instant retrieval.
 
 ## Overview
 
@@ -20,7 +20,7 @@ This implementation provides a fully functional limit order book that processes 
 No external dependencies required - uses Python standard library only.
 
 ```bash
-git clone <repository>
+git clone https://github.com/april-webm/LimitOrderBook.git
 cd orderbook
 python main.py  # Run tests
 ```
