@@ -2,8 +2,6 @@
 
 A Python implementation of a limit order book matching engine created as practice for Optiver's Future Focus Technology Program 2025.
 
-**Author**: April Kidd
-
 ## Overview
 
 A fully functional limit order book that processes buy and sell orders, matches trades based on price-time priority, and maintains efficient order management using optimised data structures.
@@ -19,10 +17,15 @@ A fully functional limit order book that processes buy and sell orders, matches 
 ## Quick Start
 
 ```bash
-python main.py  # Run test suite
+# Run tests in quiet mode (default)
+python main.py
+
+# Run tests with verbose output (shows all order details)
+python main.py -v
+python main.py --verbose
 ```
 
-## API Usage
+## Usage
 
 ```python
 from orderbook import OrderBook
@@ -68,6 +71,11 @@ The test suite (`main.py`) includes:
 - Edge case handling
 - Performance benchmarks (10,000+ orders)
 - Market simulation scenarios
+
+**Verbosity Control**: By default, tests run in quiet mode, suppressing order matching details. Use the `-v` flag to see all order execution output:
+```bash
+python main.py -v  # Shows all trade executions and order details
+```
 
 ## Example Output
 
